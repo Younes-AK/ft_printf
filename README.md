@@ -4,11 +4,10 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Usage](#usage)
 - [Supported Format Specifiers](#supported-format-specifiers)
-- [Examples](#examples)
 - [How to Compile](#how-to-compile)
 - [Tests](#tests)
+- [Examples](#examples)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -16,12 +15,46 @@
 
 The `ft_printf` function provides a formatted output similar to the standard `printf` function. It supports a subset of format specifiers and offers some additional features.
 
-## Usage
+## Supported Format Specifiers
 
-```c
-#include "ft_printf.h"
+`ft_printf` supports the following format specifiers:
 
-int main() {
-    ft_printf("Hello, %s!\n", "world");
-    return 0;
-}
+- `%c`: Character
+- `%s`: String
+- `%d` or `%i`: Signed integer
+- `%u`: Unsigned integer
+- `%x` or `%X`: Hexadecimal integer
+- `%p`: Pointer address
+- `%f`: Floating-point number
+- `%%`: Percent sign
+
+Additionally, the implementation supports various flags, width, precision, and length modifiers.
+
+## How to Compile
+
+To compile the `ft_printf` project, follow these steps:
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/yourusername/ft_printf.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd ft_printf
+    ```
+
+3. Compile the code:
+
+    ```bash
+    make
+    ```
+
+## Tests
+
+To run the tests for `ft_printf`, use the provided test suite. Make sure the project is compiled before running the tests.
+
+```bash
+make test
