@@ -25,7 +25,6 @@ The `ft_printf` function provides a formatted output similar to the standard `pr
 - `%u`: Unsigned integer
 - `%x` or `%X`: Hexadecimal integer
 - `%p`: Pointer address
-- `%f`: Floating-point number
 - `%%`: Percent sign
 
 Additionally, the implementation supports various flags, width, precision, and length modifiers.
